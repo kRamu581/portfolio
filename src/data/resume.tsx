@@ -245,20 +245,31 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Facial Authentication Attendance System Using ServiceNow",
-      href: "#",
+      title: "Facial Authentication using ServiceNow Service Portal",
+      href: "https://lnkd.in/p/gPzCXj4g",
       dates: "Project",
       active: true,
       description:
-        "A smart attendance management project concept combining facial authentication with ServiceNow to streamline attendance recording and management workflows.",
+        "A facial authentication solution built inside ServiceNow Service Portal enabling users to register and authenticate using their face. Features real-time face detection & recognition, webcam-based verification, facial descriptor matching with face-api.js, and seamless external backend integration with Node.js, Express, and MongoDB.",
       technologies: [
         "ServiceNow",
+        "Service Portal",
+        "AngularJS",
         "JavaScript",
-        "REST APIs",
-        "Facial Recognition",
+        "face-api.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "REST API",
       ],
-      links: [],
-      image: "/face-attendance-preview.jpg",
+      links: [
+        {
+          type: "Watch Demo",
+          href: "https://lnkd.in/p/gPzCXj4g",
+          icon: <Icons.video className="size-3" />,
+        },
+      ],
+      image: "/facial-auth-servicenow.png",
       video: "",
     },
     {
