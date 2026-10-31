@@ -117,7 +117,7 @@ export const DATA = {
   education: [
     {
       school: "K.S.R.M. College of Engineering",
-      href: "#",
+      href: "https://ksrmce.ac.in/",
       degree: "B.Tech – Computer Science and Engineering",
       logoUrl: "/ksrm.png",
       start: "2023",
@@ -125,7 +125,7 @@ export const DATA = {
     },
     {
       school: "Sri Chaitanya Junior College",
-      href: "#",
+      href: "https://srichaitanya.net/",
       degree: "Class XII – MPC",
       logoUrl: "/ajc.jpg",
       start: "2021",
@@ -182,6 +182,66 @@ export const DATA = {
         },
       ],
       image: "/nowscripts-preview.png",
+      video: "",
+    },
+    {
+      title: "Swiggy Clone in ServiceNow",
+      href: "https://lnkd.in/p/gtKQCenD",
+      dates: "Project",
+      active: true,
+      description:
+        "A real-world Swiggy-inspired food delivery application built inside ServiceNow Service Portal to explore custom portals beyond traditional ITSM. Features custom Service Portal pages and routing, interactive restaurant & menu UI, dynamic AngularJS shopping cart, real-time calculation, simulated UPI payment with countdown, and auto-generated digital receipts.",
+      technologies: [
+        "ServiceNow",
+        "Service Portal",
+        "AngularJS",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Custom Widgets",
+        "REST APIs",
+      ],
+      links: [
+        {
+          type: "Watch Demo",
+          href: "https://lnkd.in/p/gtKQCenD",
+          icon: <Icons.video className="size-3" />,
+        },
+        {
+          type: "Notes",
+          href: "https://lnkd.in/dEmQAzWK",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/swiggy-servicenow.png",
+      video: "",
+    },
+    {
+      title: "AI Incident Copilot",
+      href: "https://lnkd.in/p/gNfyQp6J",
+      dates: "Project",
+      active: true,
+      description:
+        "An AI-powered incident copilot inside ServiceNow to assist IT support agents with context-aware resolution suggestions. Leverages historical incidents and RAG to provide incident summaries, category/subcategory detection, impact & urgency analysis, root cause insights, step-by-step resolution steps, and confidence scores directly within a custom ServiceNow UI before applying to Work Notes.",
+      technologies: [
+        "ServiceNow",
+        "Generative AI",
+        "RAG",
+        "JavaScript",
+        "GlideRecord",
+        "GlideAjax",
+        "Script Includes",
+        "UI Pages",
+        "REST API",
+      ],
+      links: [
+        {
+          type: "Watch Demo",
+          href: "https://lnkd.in/p/gNfyQp6J",
+          icon: <Icons.video className="size-3" />,
+        },
+      ],
+      image: "/ai-incident-copilot.png",
       video: "",
     },
     {
